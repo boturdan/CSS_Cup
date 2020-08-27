@@ -1,0 +1,293 @@
+.table {
+    position: relative;
+    display: block;
+    width: 100vh;
+    height: 100vh;
+    background-color: orangered;
+}
+
+.horizontal1 {
+    position: absolute;
+    display: block;
+    background: white;
+    margin-top: 150px;
+    width: 100vh;
+    height: 150px;
+    mix-blend-mode: soft-light;
+    box-shadow: 0 0 5px 2px white;
+}
+
+.horizontal2 {
+    position: absolute;
+    display: block;
+    background: white;
+    margin-top: 450px;
+    width: 100vh;
+    height: 150px;
+    mix-blend-mode: soft-light;
+    box-shadow: 0 0 5px 2px white;
+}
+
+.horizontal3 {
+    position: absolute;
+    display: block;
+    background: white;
+    margin-top: 750px;
+    width: 100vh;
+    height: 150px;
+    mix-blend-mode: soft-light;
+    box-shadow: 0 0 5px 2px white;
+}
+
+.vertical1 {
+    position: absolute;
+    display: block;
+    background: white;
+    margin-left: 150px;
+    width: 150px;
+    height: 100vh;
+    mix-blend-mode: soft-light;
+    box-shadow: 0 0 5px 2px white;
+}
+
+.vertical2 {
+    position: absolute;
+    display: block;
+    background: white;
+    margin-left: 450px;
+    width: 150px;
+    height: 100vh;
+    mix-blend-mode: soft-light;
+    box-shadow: 0 0 5px 2px white;
+}
+
+.vertical3 {
+    position: absolute;
+    display: block;
+    background: white;
+    margin-left: 750px;
+    width: 150px;
+    height: 100vh;
+    mix-blend-mode: soft-light;
+    box-shadow: 0 0 5px 2px white;
+}
+
+.coffee {
+    position: relative;
+    display: block;
+}
+
+.plate {
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    top: 80px;
+    left: 80px;
+    background: paleturquoise;
+    border-radius: 50%;
+    box-shadow: -15px 15px 30px 10px black;
+}
+
+.plate-blur-box {
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    top: 80px;
+    left: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px paleturquoise;
+}
+
+.plate-element1 {
+    position: relative;
+    width: 319px;
+    height: 319px;
+    top: 139px;
+    left: 139px;
+    background: paleturquoise;
+    border-radius: 50%;
+    box-shadow: -10px 10px 30px 5px grey inset;
+}
+
+.plate-element1-blur-box {
+    position: absolute;
+    width: 315px;
+    height: 315px;
+    top: 142px;
+    left: 140px;
+    border-radius: 50%;
+    box-shadow:0 15px 10px paleturquoise;
+    transform: rotate(260deg);
+}
+
+.plate-element2 {
+    position: relative;
+    width: 319px;
+    height: 319px;
+    top: -180px;
+    left: 139px;
+    border-radius: 50%;
+    box-shadow: -10px 10px 30px 5px grey;
+}
+
+.plate-element2-blur-box {
+    position: absolute;
+    width: 315px;
+    height: 315px;
+    top: 140px;
+    left: 139px;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px paleturquoise inset;
+}
+
+.handle-blur-box {
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    top: 320px;
+    left: 120px;
+    transform: rotate(-20deg);
+    z-index: 1;
+    border-radius: 39%;
+    box-shadow:0 0 2px 1px rgb(150, 180, 180);
+}
+
+.handle {
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 50px;
+    top: 320px;
+    left: 120px;
+    z-index: 1;
+    background: rgb(150, 180, 180);
+    transform: rotate(-20deg);
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 39%;
+    box-shadow: -15px 15px 30px 10px black;
+}
+
+.cup {
+    position: absolute;
+    display: block;
+    top: 175px;
+    left: 180px;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    border: 25px solid rgb(150, 180, 180);
+    border-radius: 50%;
+    box-shadow: -10px 10px 30px 5px black inset;
+}
+
+.cup-blur-box {
+    position: absolute;
+    display: block;
+    top: 177px;
+    left: 183px;
+    width: 242px;
+    height: 242px;
+    z-index: 2;
+    border: 1px solid rgb(150, 180, 180);
+    border-radius: 50%;
+    box-shadow: 0 0 10px 4px paleturquoise;
+}
+
+.cup-element1 {
+    position: absolute;
+    display: block;
+    top: 176px;
+    left: 181px;
+    width: 246px;
+    height: 246px;
+    box-shadow: -30px 30px 50px 10px black;
+    border-radius: 50%;
+}
+
+.cup-element2 {
+    position: absolute;
+    display: block;
+    top: 175px;
+    left: 180px;
+    width: 241px;
+    height: 241px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 190px;
+    border-bottom-right-radius: 190px;
+    transform: rotate(45deg);
+    border: 5px solid rgb(201, 255, 249);
+    border-bottom: 0;
+}
+
+.cup-element2-blur-box {
+    position: absolute;
+    display: block;
+    top: 175px;
+    left: 180px;
+    width: 241px;
+    height: 241px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    transform: rotate(45deg);
+    border: 5px solid rgb(201, 255, 249);
+    border-bottom: 0;
+    box-shadow: 0 0 3px 5px white;
+}
+
+.drink {
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 205px;
+    background: #22120e;
+    z-index: 3;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 2px #22120e;
+}
+
+.reflection1 {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 180px;
+    top: 5px;
+    left: 30px;
+    transform: rotate(150deg);
+    box-shadow: 0 0 5px 1px #22120e;
+    border: 30px solid #645f5c;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 150px/190px;
+}
+
+.drink-cover {
+    position: absolute;
+    display: block;
+    top: 73px;
+    left: -35px;
+    width: 195px;
+    height: 95px;
+    background: #22120e;
+    z-index: 1;
+    border-radius: 150px 150px 0 0;
+    transform: rotate(240deg);
+}
+
+.reflection2 {
+    position: absolute;
+    display: block;
+    top: 95px;
+    left: -13px;
+    width: 140px;
+    height: 60px;
+    background: #645f5c;
+    z-index: 1;
+    border-radius: 180px 180px 0 0;
+    transform: rotate(240deg);
+    box-shadow: 0 0 4px 12px #645f5c;
+}
