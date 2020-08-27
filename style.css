@@ -510,3 +510,68 @@
     transform: rotate(-150deg);
     box-shadow: 5px -5px 3px 1px #463418;
 }
+
+.bubble-dot1 {
+    position: absolute;
+    display: block;
+    top: 98px;
+    left: 6px;
+    width: 3px;
+    height: 3px;
+    background: #c49f63;
+    z-index: 2;
+    border: 1px solid #52401e;
+    border-radius: 50%;
+}
+
+.bubble-dot2 {
+    position: absolute;
+    display: block;
+    top: 110px;
+    left: 9px;
+    width: 3px;
+    height: 3px;
+    background: #c49f63;
+    z-index: 2;
+    border: 1px solid #52401e;
+    border-radius: 50%;
+}
+
+.bubble-dot3 {
+    position: absolute;
+    display: block;
+    top: 136px;
+    left: 12px;
+    width: 2px;
+    height: 2px;
+    background: #c49f63;
+    z-index: 2;
+    border: 1px solid #52401e;
+    border-radius: 50%;
+}
+
+.bubble-dot4 {
+    position: absolute;
+    display: block;
+    top: 122px;
+    left: 6px;
+    width: 2px;
+    height: 2px;
+    background: #c49f63;
+    z-index: 2;
+    border: 1px solid #52401e;
+    border-radius: 50%;
+}
+
+.bubble-dot5 {
+    position: absolute;
+    display: block;
+    top: 145px;
+    left: 16px;
+    width: 1px;
+    height: 1px;
+    background: #c49f63;
+    z-index: 2;
+    border: 1px solid #52401e;
+    border-radius: 50%;
+}
